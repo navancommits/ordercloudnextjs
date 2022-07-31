@@ -14,7 +14,7 @@ export default class extends Component {
   }
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch(
     "https://catfact.ninja/fact"
   );
