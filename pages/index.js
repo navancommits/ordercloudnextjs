@@ -10,7 +10,7 @@ export default class extends Component {
 		  <div>{this.props.length}</div>
 	  </div>
     )
-	revalidate: 10 // In seconds
+	
   }
 }
 
